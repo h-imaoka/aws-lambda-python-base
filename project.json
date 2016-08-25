@@ -1,0 +1,13 @@
+
+{
+  "name": "base",
+  "description": "base project",
+  "runtime": "python",
+  "memory": 128,
+  "timeout": 10,
+  "role": "arn:aws:iam::xxx:role/XXXXX",
+  "environment": {},
+  "hooks": {
+    "build": "pip install -r requirements.txt -t ."
+  }
+}
