@@ -7,4 +7,4 @@
 2. apex hook call `pip --install -r requirement.txt` when `apex deploy`
 
 # local execution
-`mayn.py < ../../events/test.json`
+`main.py < ../../events/test.json`
